@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: ec6bh1cin-python-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/ec6bh1cin-python

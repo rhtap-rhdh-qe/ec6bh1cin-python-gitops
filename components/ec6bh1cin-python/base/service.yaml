@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: ec6bh1cin-python
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: ec6bh1cin-python 
+  name: ec6bh1cin-python
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: ec6bh1cin-python 
